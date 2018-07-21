@@ -13,10 +13,10 @@
   if ([@"wifi" isEqualToString:call.method]) {
     if ([[UIApplication sharedApplication] canOpenURL:[NSURL URLWithString:@"prefs:root=WIFI"]]) {
         [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"prefs:root=WIFI"]];
-         result(true);
+        result(@YES);
     } else {
         [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"App-Prefs:root=WIFI"]];
-         result(true);
+        result(@YES);
     }
   } else {
     result(FlutterMethodNotImplemented);
