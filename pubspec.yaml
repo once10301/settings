@@ -2,7 +2,7 @@ name: settings
 description: Flutter plugin providing jump to settings.
 author: Lewis <once10301@gmail.com>
 homepage: https://github.com/once10301/settings
-version: 0.0.2
+version: 0.0.3
 
 dependencies:
   flutter:
