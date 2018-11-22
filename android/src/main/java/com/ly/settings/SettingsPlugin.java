@@ -25,7 +25,7 @@ public class SettingsPlugin implements MethodCallHandler {
     public void onMethodCall(MethodCall call, Result result) {
         switch (call.method) {
             case "wifi":
-                openWiFiSettings();
+                openWlanSettings();
                 result.success(true);
                 break;
             case: "gps":
