@@ -9,4 +9,8 @@ class Settings {
   static Future<bool> openWiFiSettings() async {
     return await _channel.invokeMethod('wifi');
   }
+
+  static Future<bool> openGPSSettings() async {
+    return await _channel.invokeMethod('gps');
+  }
 }
