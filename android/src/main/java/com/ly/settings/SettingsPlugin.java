@@ -28,7 +28,7 @@ public class SettingsPlugin implements MethodCallHandler {
                 openWlanSettings();
                 result.success(true);
                 break;
-            case: "gps":
+            case "gps":
                 openGPSSettings();
                 result.success(true);
                 break;
